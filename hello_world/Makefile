@@ -1,6 +1,6 @@
 
 hello: hello.cpp
-	$(CXX) $(CXXFLAGS) -std=c++11 -o $@ $<
+	$(CXX) $(CXXFLAGS) -o $@ $<
 
 run: hello
 	./hello

@@ -1,6 +1,7 @@
+CXXFLAGS += -std=c++11
 
 accumulate: accumulate.cpp
-	$(CXX) $(CXXFLAGS) -std=c++11 -o $@ $<
+	$(CXX) $(CXXFLAGS) -o $@ $<
 
 run: accumulate
 	./accumulate
