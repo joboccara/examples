@@ -1,6 +1,7 @@
 #include <algorithm>
 #include <iostream>
 #include <iterator>
+#include <numeric>
 #include <vector>
 
 template <typename ForwardIterator, typename OutputIterator>
